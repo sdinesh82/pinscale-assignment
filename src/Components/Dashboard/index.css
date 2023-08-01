@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.dashboard-bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.dashboard-second-card {
+  height: 100vh;
+  width: 80%;
+  background-color: #f8f8f8;
+}
+.dashboard-header {
+  height: 14vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+.dashboard-accounts {
+  margin-left: 5%;
+  color: #343c6a;
+}
+.dashboard-button {
+  margin-right: 5%;
+  border-radius: 12px;
+  border: 0px solid;
+  background-color: #2d60ff;
+  height: 5vh;
+  color: #ffffff;
+}
+.accounts-two-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.accounts-first-card {
+  width: 45%;
+  background-color: #ffffff;
+  height: 16vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2%;
+  border-radius: 10px;
+}
+.accounts-credit-image {
+  height: 13vh;
+  align-self: center;
+}
+.accounts-credit-head {
+  color: #16dbaa;
+  margin-top: 10%;
+}
+.accounts-credit-para {
+  color: #718ebf;
+}
+.accounts-debit-header {
+  color: #fe5c73;
+  margin-top: 10%;
+}
+.accounts-debit-para {
+  color: #718ebf;
+}
+.accounts-last-head {
+  color: #333b69;
+  margin-left: 6%;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.accounts-last3-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-left: 6%;
+  margin-right: 6%;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.accounts-last3-transactions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 4vh;
+}
+.last-pen-bin {
+  width: 6%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.mini-statement {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mini-statement-why {
+  width: 10%;
+}
+.date-of-transaction {
+  width: 25%;
+}
+.amount-of-transaction {
+  width: 8%;
+}
+.inc-dec {
+  height: 3vh;
+  margin-right: 5px;
+}

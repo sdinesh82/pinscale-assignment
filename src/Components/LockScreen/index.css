@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.bg-container {
+  background-image: url("https://res.cloudinary.com/dagct5hf8/image/upload/v1686846875/samples/ecommerce/leather-bag-gray.jpg");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-card-container {
+  width: 30%;
+  height: 40vh;
+  background-color: #505887;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+}
+.input {
+  height: 5vh;
+  margin-bottom: 10px;
+  width: 70%;
+  margin-left: 15%;
+}
+.label {
+  margin-left: 15%;
+  margin-bottom: 3px;
+}
+.loginButton {
+  color: #ffffff;
+  background-color: skyblue;
+  border-radius: 5px;
+  border: 0px solid;
+  height: 4vh;
+  width: 20%;
+}
+.btn-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
